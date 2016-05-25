@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+#body {
+	width: 1024px;
+	margin-right:auto;
+	background:#FFF;
+	position: relative;
+	margin: 0 auto;
+	background-size:1024px 800px;
+	padding-bottom:25px;
+}
+#input_table
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin-bottom: 45px;
+	width: 95%;
+	text-align: center;
+	border: 1px solid #000000;
+}
+#input_table th
+{
+	padding: 10px 20px 10px 20px;
+	font-weight: bolder;
+	font-size: 14px;
+	color: #000000;
+	border-bottom: 1px dashed #000000;
+}
+#input_table td
+{
+	padding: 10px 20px 10px 20px;
+	font-weight: lighter;
+	font-size: 12px;
+	text-align:left;
+	color: #000000;
+	
+}
+#input_table tr:hover td
+{
+	color: #000000;
+	background: #DFEFFF;
+}
+
+
+
+
+#button{
+	border-radius: 10px;
+	padding: 8px 20px 8px 20px;
+}
+
+
+.NVinput{
+	border:#FF0000;
+	border-width:1px;
+	border-style:solid;
+	padding: 1px 0px;
+}
+
+#report_table
+{
+font-family:"Times New Roman", Times, serif;;
+width:95%;
+border-collapse:collapse;
+}
+#report_table td, #report_table th 
+{
+font-size:14px;
+border:1px solid #000000;
+padding:3px 7px 2px 7px;
+}
+#report_table th 
+{
+font-size:16px;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#999999;
+color:#000000;
+}
+
+#report_table tr:hover
+{
+background-color:#E1E1FF;
+}
+
+#report_table tr.alt td 
+{
+color:#000000;
+background-color:#ffffff;
+}
+
+#spriner{
+	display:none;
+}

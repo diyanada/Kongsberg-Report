@@ -1,0 +1,60 @@
+﻿<IfModule mod_rewrite.c>
+    	RewriteEngine On
+		RewriteBase /
+    	RewriteCond %{REQUEST_FILENAME} !-f
+		RewriteCond %{REQUEST_FILENAME} !-d
+    	RewriteRule ^(.+)$ /hostage.php?_url=/$1 [QSA,L]
+</IfModule>
+
+
+
+
+<Files *.php>
+	order allow,deny
+	deny from all
+	satisfy all
+</Files>
+
+<Files index.php>
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+<Files hostage.php>
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+<Files login.php>
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+<Files login_admin.php>
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+<Files image.php>
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+<Files js.php>
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+<Files *_ajax.php>
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+<Files style.php>
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+
+
+
